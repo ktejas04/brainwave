@@ -1,0 +1,105 @@
+STEP 1
+Create folder with npm and initialize tailwind.
+initialize .vscode and settings.json
+Update tailwind.config.js and delete App.css
+Initialize index.css and set color-theme to dark
+Import react-router-dom and wrap the <App/> inside it.
+Replace assets folder and change title and favicon.
+
+STEP 2
+Start writing in App.jsx
+Import Button, ButtonGradient
+Transform Button into a reusable component
+Create renderButton and renderLink (not working)
+
+STEP 3
+Create Header.jsx
+create two divs and render brainwave img in it. (How?)
+create nav tag
+create constants > index.js in src (check path)
+map over navigationin constants and write diff a tags
+apply suitable classes for mobile(sign up, new account) and use useLocation to check pathname 
+create new a tag for new account(signup) and use button for sign in
+
+STEP 4
+create Hamburger Menu for Mobiles
+copy design folder
+attached Hamburgermenu after nav map
+reused button component with MenuSvg to get the hamburger svg
+create openNavigation, toggleNavigation and handleClick
+imported scroll-lock and implemented pageScroll.
+
+STEP 5
+Create a skeleton section component.
+
+STEP 6
+Work on Hero section
+Wrap within Section(Step 5)
+write h1, p and button
+
+make conic gradient section 
+add grey rect and image of robot
+add heroBackground
+import scroll parallax and animate heroicons.map > li
+add bgcircles
+now we have to implement add-ons
+create generation.jsx - ai is generating. apply classescreate notification.jsx. wrap within scrollParallax.
+take props and render 
+create ul using mapping over notificationImages
+add the last div and position everything
+
+create companyLogos.jsx 
+write tagline in h5 and map over company logos
+
+STEP 7
+Create Benefits.jsx
+Create Heading.jsx- reusable component
+style "chat smarter yourself"
+create card component.
+
+STEP 8
+Create Collaboration.jsx
+h2, ul
+ul => map over collabContent
+try it now button and text
+concentric circles
+map over collabApps
+Add the Right and Left curves.
+
+STEP 9
+Create Services.jsx
+create a container div. 
+put a heading with text and sub-text.
+create a div for the 3 diff bento cards/grids
+
+1st grid - smartest ai
+put image apply absolute positioning.
+create text and sub-text 
+create the three ul> li by mapping over brainwaveServices.
+use flex for spacing 
+
+2nd grid - photo editing
+apply border and put image with absolute positioning.
+add the box
+
+3rd grid - video generation
+add text and sub-text 
+create ul with li flex
+add photo, chat box, videochatmessage and videobar
+
+STEP 10
+Create Pricing.jsx
+put sphere and stars svg
+use Heading with suitable title and tag
+
+inside Heading, create Tagline to get [ ] and the text.
+create PricingList.jsx and add Left and Right lines
+creatig pricing cards with diff heights
+add buttons accordingly
+
+STEP 11
+Create Roadmap.jsx
+create gridsadd date, msg box , img, text , sub-text
+
+STEP 12
+Create Footer.jsx
